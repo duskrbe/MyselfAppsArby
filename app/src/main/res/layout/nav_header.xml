@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@color/dark_red"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        app:cardCornerRadius="40dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="0.8dp"
+            android:src="@drawable/logo_myself_apps_2" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arby_febrian_saputro"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/game_of_squids"
+        android:textColor="@color/black"
+        android:shadowColor="@color/red_rb"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arbyfebrians18_gmail_com"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/grey"
+        android:shadowColor="@color/black"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="7"/>
+
+
+</LinearLayout>
